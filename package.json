@@ -17,6 +17,7 @@
 		"network",
 		"wifi"
 	],
+	"repository": "mt9555/get-wifi-password",
 	"files": [
 		"index.js",
 		"utils"

@@ -3,10 +3,9 @@
 ## Get-wifi-pwd
 
 ## Usage 
-const alert = require('cli-alert')
+const alert = require('get-wifi-pwd')
 
 ## install 
-``js
-npx get-wifi-pwd
-or
+npx get-wifi-pwd <br>
+or <br>
 npm install -g get-wifi-pwd

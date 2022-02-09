@@ -4,11 +4,10 @@
  * get-wifi-pwd
  * A node cli to ge tool to get current wifi password
  *
- * @author mt-new <kjkjdfdf>
+ * @author mt-new <>
  */
 
-
-const alert = require('cli-alerts')
+const alert = require('cli-alerts');
 const init = require('./utils/init');
 const cli = require('./utils/cli');
 const log = require('./utils/log');
@@ -22,14 +21,13 @@ const { clear, debug } = flags;
 	init({ clear });
 	input.includes(`help`) && cli.showHelp(0);
 
-
 	const password = await wifiPassword();
 
 	alert({
-		type : `info`,
-		name : `wifi password`,
-		msg : password
-	})
+		type: `info`,
+		name: `wifi password`,
+		msg: password
+	});
 
 	debug && log(flags);
 })();

@@ -9,12 +9,13 @@
 	},
 	"author": {
 		"name": "mt-new",
-		"email": "Topzydrumz@gmail.com",
-		"url": "kjkjdfdf"
+		"email": "Topzydrumz@gmail.com"
 	},
 	"keywords": [
 		"get-wifi-pwd",
-		"mt-new"
+		"mt-new",
+		"network",
+		"wifi"
 	],
 	"files": [
 		"index.js",

@@ -3,7 +3,7 @@
 ## Get-wifi-pwd
 
 ## Usage 
-const alert = require('get-wifi-pwd')
+const wifi-pwd = require('get-wifi-pwd')
 
 ## install 
 npx get-wifi-pwd <br>
